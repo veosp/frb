@@ -1,52 +1,79 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная - Название вашего сайта</title>
-    <meta name="description" content="Краткое описание главной страницы вашего сайта">
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-<!-- Шапка сайта -->
-<header>
-<a href="/">Логотип или название сайта</a>
-<!-- Главное меню навигации -->
-<nav>
-<ul>
-<li><a href="index.html">Главная</a></li>
-<li><a href="about.html">О нас</a></li>
-<li><a href="contacts.html">Контакты</a></li>
-</ul>
-</nav>
-</header>
-<!-- Уникальное основное содержимое страницы -->
-<main>
-<h1>Добро пожаловать на наш сайт!</h1>
-<!-- Секция 1 с якорем -->
-<section id="services">
-<h2>Наши услуги</h2>
-<p>Описание предоставляемых услуг...</p>
-<a href="#contacts">Связаться с нами</a> <!-- Якорная ссылка внутри страницы -->
-</section>
-<!-- Секция 2 с якорем -->
-<section id="portfolio">
-<h2>Портфолио</h2>
-<p>Примеры наших работ...</p>
-</section>
-<!-- Секция 3 с якорем -->
-<section id="contacts">
-<h2>Контактная информация</h2>
-<p>Наши контакты...</p>
-<a href="contacts.html">Подробнее</a> <!-- Ссылка на отдельную страницу -->
-</section>
-</main>
-<!-- Подвал сайта -->
-<footer>
-<p>&copy; 2023 Название вашего сайта. Все права защищены.</p>
-<p>Телефон: +7 (123) 456-78-90</p>
-</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Семестровая работа</title>
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="header">Хэдер</div>
+      <div class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/news.html">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/practices.html">Практики</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/goods.html">Товары</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="profile-header">
+          <h1 class="profile-title">Информация об авторе</h1>
+          <img
+            class="profile-photo"
+            src="assets/photo.jpg"
+            alt="Фото
+автора"
+          />
+          <h2 class="profile-name">Иванов Иван Иванович</h2>
+          <p class="profile-group">НОМЕР ГРУППА</p>
+        </div>
+        <div class="about-me">
+          <p>
+            Обо мне: Я родился в Москве в 70-м на краю города. Глупость рано
+            ударила в голову. В четыре активно ругался. Потом школа, форма,
+            драки, клей. Так я становился сильней. Воровал деньги в раздевалке.
+          </p>
+        </div>
+        <div class="skills-container">
+          <div class="skill-tag">Навык 1</div>
+          <div class="skill-tag">Навык 2</div>
+          <div class="skill-tag">Навык 3</div>
+          <div class="skill-tag">Навык 4</div>
+        </div>
+        <div class="experience-section">
+          <h2 class="section-title">Мой опыт работы</h2>
+          <div class="experience-card">
+            <h3 class="experience-title">Опыт 1</h3>
+            <p class="experience-desc">
+              Работал фантазёром. Сочинял и праздновал.
+            </p>
+          </div>
+          <div class="experience-card">
+            <h3 class="experience-title">Опыт 2</h3>
+            <p class="experience-desc">
+              Работал воровством. Воровал и продавал.
+            </p>
+          </div>
+          <div class="experience-card">
+            <h3 class="experience-title">Опыт 3</h3>
+            <p class="experience-desc">Работал рэпером. Читал и пел.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">Футер</div>
+    </div>
+  </body>
 </html>
